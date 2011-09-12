@@ -9,6 +9,7 @@ gem 'sqlite3'
 gem 'authlogic'
 gem 'paperclip'
 
+gem "rails3-generators"
 
 # Use unicorn as the web server
 # gem 'unicorn'
