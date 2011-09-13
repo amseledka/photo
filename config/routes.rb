@@ -1,11 +1,14 @@
 Photo::Application.routes.draw do
 
+  get "home/index"
+
   resources :users
   
-  root :to => "user_sessions#show"
+  resources :user_sessions
 
-  get "user_sessions/new"
+  match 'login' => "user_sessions#new",      :as => :login
+  match 'logout' => "user_sessions#destroy", :as => :logout
 
-  get "user_sessions/destroy"
+  root :to => "home#index"
 
 end
