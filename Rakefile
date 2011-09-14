@@ -4,4 +4,4 @@
 require File.expand_path('../config/application', __FILE__)
 require 'rake'
 
-Photo::Application.load_tasks
+Gallery::Application.load_tasks

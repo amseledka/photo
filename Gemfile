@@ -7,7 +7,7 @@ gem 'rails', '3.0.9'
 
 gem 'sqlite3'
 gem 'authlogic'
-gem 'paperclip'
+gem 'paperclip', '~> 2.4'
 
 gem "rails3-generators"
 

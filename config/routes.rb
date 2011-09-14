@@ -1,4 +1,4 @@
-Photo::Application.routes.draw do
+Gallery::Application.routes.draw do
 
   get "home/index"
 

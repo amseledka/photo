@@ -84,7 +84,7 @@ PLATFORMS
 
 DEPENDENCIES
   authlogic
-  paperclip
+  paperclip (~> 2.4)
   rails (= 3.0.9)
   rails3-generators
   sqlite3
